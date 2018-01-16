@@ -1,7 +1,7 @@
 {
 	"description": "项目配置文件。",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -9,9 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.1",
-	"appid": "wx328bc1e7bc61c6d6",
-	"projectname": "loveKobe",
-	"isGameTourist": false,
+	"appid": "touristappid",
+	"projectname": "wyCloud_music",
 	"condition": {
 		"search": {
 			"current": -1,
