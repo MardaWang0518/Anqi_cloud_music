@@ -10,6 +10,7 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    
     "color": "#000000",
     "selectedColor": "#bb2c08",
     "borderStyle": "white",
