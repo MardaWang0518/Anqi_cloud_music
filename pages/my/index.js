@@ -11,6 +11,9 @@ Page({
         })
     },
     playTap: function(e) {
-
+        wx.showToast({
+          title: '小哥正在努力开发ing',
+          icon:'none'
+        })
     }
 })
