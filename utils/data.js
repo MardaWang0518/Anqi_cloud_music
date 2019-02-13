@@ -1,6 +1,7 @@
 const songs = {
 	"4133984": {
     "mp3Url": "http://other.web.ri01.sycdn.kuwo.cn/resource/n1/71/72/1583412073.mp3",
+// http://music.163.com/#/song?id=363488
 		"album": {
 			"picUrl": "http://p4.music.126.net/Frbn2mQ18NswoanBk-O1wg==/106652627910743.jpg",
 			"name": "永恒的起点",
@@ -33,6 +34,7 @@ const songs = {
     "mp3Url": "http://other.web.rd01.sycdn.kuwo.cn/resource/n3/42/27/3771150636.mp3",
 		"album": {
       "picUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549878654553&di=c809f8362f7599e2325a27ad23eee5c5&imgtype=0&src=http%3A%2F%2Fi-7.vcimg.com%2Fcrop%2Fdc8939804c7739ac01c0709981e4de9c614807%2528600x%2529%2Fthumb.jpg",
+
 			"name": "Zella Day ",
 		},
 		"artists": "Zella Day",
@@ -44,6 +46,7 @@ const songs = {
     "mp3Url": "http://other.web.rw01.sycdn.kuwo.cn/resource/n3/22/6/1501872346.mp3",
 		"album": {
       "picUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1550473445&di=8e88f9bed0e96da1300e619b79d57d35&imgtype=jpg&er=1&src=http%3A%2F%2Fen.pimg.jp%2F021%2F582%2F908%2F1%2F21582908.jpg",
+
 			"name": "Relax, Take It Easy",
 		},
 		"artists": "Mika",
@@ -55,6 +58,7 @@ const songs = {
     "mp3Url": "http://sf.sycdn.kuwo.cn/resource/n3/56/8/490271439.mp3",
 		"album": {
       "picUrl": "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1718761672,38748164&fm=26&gp=0.jpg",
+
 			"name": "好可惜",
 		},
 		"artists": "庄心妍",
@@ -65,6 +69,7 @@ const songs = {
     "mp3Url": "http://other.web.rb01.sycdn.kuwo.cn/resource/n2/94/6/3555611576.mp3",
 		"album": {
       "picUrl": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549878806822&di=bec00d117bb124b179fe84ca21c9663f&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201609%2F22%2F20160922213607_XQJwe.jpeg",
+
 			"name": "These Friends Of Mine",
 		},
 		"artists": "Rosie Thomas",

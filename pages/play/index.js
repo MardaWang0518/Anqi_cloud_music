@@ -274,6 +274,7 @@ Page({
     fav = wx.getStorageSync('fav') || {},
     favlist = wx.getStorageSync('favlist') || {};
 
+
 		fav[id] = favName;
 		if (!favlist[favName]) favlist[favName] = {
 			picurl: '',
