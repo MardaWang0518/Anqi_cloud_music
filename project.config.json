@@ -5,12 +5,15 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": true,
+		"uglifyFileName": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.1",
-	"appid": "touristappid",
-	"projectname": "wyCloud_music",
+	"libVersion": "2.4.4",
+	"appid": "wx328bc1e7bc61c6d6",
+	"projectname": "Anqi_music",
 	"condition": {
 		"search": {
 			"current": -1,

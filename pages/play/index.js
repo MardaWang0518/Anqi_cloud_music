@@ -78,6 +78,7 @@ Page({
 			return;
 		}
 
+    console.log("favEvent",e)
 		var id = this.data.currentId,
 			fav = wx.getStorageSync('fav') || {},
 			favName = fav[id],
@@ -270,8 +271,8 @@ Page({
 		}
 
 		var id = this.data.currentId,
-			fav = wx.getStorageSync('fav') || {},
-			favlist = wx.getStorageSync('favlist') || {};
+    fav = wx.getStorageSync('fav') || {},
+    favlist = wx.getStorageSync('favlist') || {};
 
 		fav[id] = favName;
 		if (!favlist[favName]) favlist[favName] = {
