@@ -10,7 +10,10 @@ Page({
 		this.setData({
 			currentId: param.id
 		})
+
 		this.idsMap = wx.getStorageSync('ids') || {};
+    
+    console.log("idsArr--", Object.keys(this.idsMap))
 		this.idsArr = Object.keys(this.idsMap);
 	},
 	onReady: function() {
@@ -201,12 +204,13 @@ Page({
 		}, 100);
 	},
 	getNextSongId: function() {
+    console.log("idsArr", this.idsArr)
 		if (this.data.mode === 'single') {
 			return this.data.currentId;
 		} else if (this.data.mode === 'random') {
-			return idsArr[Math.floor(Math.random() * idsArr.length)]
+      return this.idsArr[Math.floor(Math.random() * this.idsArr.length)]
 		} else if (this.data.mode === 'loop') {
-			return this.idsMap[Number(this.data.currentId)].nextid;
+			return this.idsMap[this.data.currentId].nextid;
 		}
 	},
 	getLyricList: function(song) {
