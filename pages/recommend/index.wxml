@@ -1,7 +1,7 @@
 <swiper autoplay>
   <block wx:for="{{imgUrls}}">
     <swiper-item>
-      <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+      <image src="{{item}}" class="slide-image" mode="aspectFill" bindtap='test'/>
     </swiper-item>
   </block>
 </swiper>

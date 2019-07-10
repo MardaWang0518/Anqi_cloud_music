@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/recommend/index",
+    "pages/demo/demo",
     "pages/play/index",
     "pages/my/index"
   ],
@@ -13,16 +14,20 @@
     "color": "#000000",
     "selectedColor": "#bb2c08",
     "borderStyle": "white",
-    "list": [{
-      "pagePath": "pages/recommend/index",
-      "text": "推荐音乐",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    }, {
-      "pagePath": "pages/my/index",
-      "text": "我的音乐",
-      "iconPath": "images/my.png",
-      "selectedIconPath": "images/my-active.png"
-    }]
-  }
+    "list": [
+      {
+        "pagePath": "pages/recommend/index",
+        "text": "推荐音乐",
+        "iconPath": "images/music.png",
+        "selectedIconPath": "images/music-active.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的音乐",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

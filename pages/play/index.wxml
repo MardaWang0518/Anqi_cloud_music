@@ -1,4 +1,4 @@
-<audio src="{{src}}" action="{{action}}" binderror="errorEvent" bindtimeupdate="timeupdateEvent" bindended="endEvent"></audio>
+<audio src="{{src}}" action="{{action}}" binderror="errorEvent" bindtimeupdate="timeupdateEvent" bindended="endEvent" mode="{{mode}}"></audio>
 <image class="play-bg" mode="aspectFill" src="{{picurl}}" ></image>
 <image wx:if="{{lyricHidden}}" bindtap="switchbgEvent" class="trun-bg" mode="aspectFill" src="{{picurl}}" style="transform: translateX(-50%) rotate({{deg}}deg);"></image>
 <view wx:if="{{!lyricHidden}}" id="container" class="play-container" animation="{{animationData}}" bindtap="switchbgEvent">
@@ -21,7 +21,7 @@
   		<image class="fav" mode="scaleToFill" bindtap="favEvent" src="../../images/{{fav}}.png" />
   	</view>
 </view>
-<toast hidden="{{toastHidden}}" duration="2000" bindchange="toastChange">{{toastMsg}}</toast>
+<toast hidden="{{toastHidden}}" duration="2000" icon="none" bindchange="toastChange">{{toastMsg}}</toast>
 <action-sheet hidden="{{favHidden}}" bindchange="actionSheetChange">
 	<action-sheet-item>
 		<input placeholder="＋ 新建收藏夹" placeholder-style="margin:0 auto;" maxlength="10" bindchange="addFavItem"/>
