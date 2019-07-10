@@ -14,6 +14,8 @@
 	"libVersion": "2.4.4",
 	"appid": "wx328bc1e7bc61c6d6",
 	"projectname": "Anqi_music",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

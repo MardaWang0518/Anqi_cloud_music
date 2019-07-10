@@ -42,5 +42,11 @@ Page({
 		wx.navigateTo({
 			url: `../play/index?id=${dataset.id}`
 		})
-	}
+	},
+
+  test:function(){
+      wx.navigateTo({
+        url: '../demo/demo',
+      })
+  }
 })

@@ -1,0 +1,2 @@
+<!--pages/demo/demo.wxml-->
+<web-view src="https://www.qq.com/"></web-view>
