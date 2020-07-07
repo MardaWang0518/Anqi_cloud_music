@@ -3,7 +3,8 @@
     "pages/recommend/index",
     "pages/demo/demo",
     "pages/play/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/play/test"
   ],
   "window": {
     "backgroundTextStyle": "light",
